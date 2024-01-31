@@ -1,0 +1,7 @@
+{
+    // File name for local file, or null to use url…
+    localEmojiDefinition: null,
+    // Twemoji just supports 15.0
+    emojiDefinitionURL: 'https://unicode.org/Public/emoji/15.1/emoji-test.txt',
+    output: './dist/emojis.db',
+}

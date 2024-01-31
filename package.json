@@ -1,0 +1,21 @@
+{
+  "name": "emojidb",
+  "version": "0.1.0",
+  "description": "Simple script to fill up a sqlite database with emojis, used for the fernschreiber telegram client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-icons": "git submodule update --init --recursive",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run update-icons"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "json5": "^2.2.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
