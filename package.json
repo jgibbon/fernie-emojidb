@@ -8,7 +8,7 @@
     "update-icons": "git submodule update --init --recursive",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "npm run update-icons"
+    "prestart": "npm i && npm run update-icons"
   },
   "author": "",
   "license": "ISC",
